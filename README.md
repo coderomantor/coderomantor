@@ -9,6 +9,8 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/roman-ullah/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect with Roman Ullah on LinkedIn" /></a>
   <a href="https://github.com/coderomantor"><img src="https://img.shields.io/badge/GitHub-coderomantor-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Visit coderomantor on GitHub" /></a>
+  <a href="https://www.kaggle.com/coderomantor"><img src="https://img.shields.io/badge/Kaggle-coderomantor-20BEFF?style=for-the-badge&amp;logo=kaggle&amp;logoColor=white" alt="Visit coderomantor on Kaggle" /></a>
+  <a href="https://www.youtube.com/@codermantor"><img src="https://img.shields.io/badge/YouTube-codermantor-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="Visit codermantor on YouTube" /></a>
   <img src="https://img.shields.io/badge/Location-Pakistan-0F766E?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Based in Pakistan" />
   <img src="https://img.shields.io/badge/Status-Open_to_AI%2FML_Opportunities-6D28D9?style=for-the-badge" alt="Open to AI/ML internships and junior opportunities" />
 </p>
