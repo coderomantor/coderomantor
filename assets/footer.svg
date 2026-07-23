@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Profile footer</title>
+  <desc id="desc">Learning deeply. Building consistently. Improving one project at a time.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.52" stop-color="#08152d"/>
+      <stop offset="1" stop-color="#101036"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="0.78" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" opacity="0.12"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      .second { animation-delay: -1.5s; }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="158" rx="22" fill="url(#bg)" stroke="#1e3a5f"/>
+  <rect x="1" y="1" width="1198" height="158" rx="22" fill="url(#dots)"/>
+  <path d="M80 80H390M810 80H1120" stroke="url(#accent)" stroke-width="2"/>
+  <circle class="pulse" cx="390" cy="80" r="4" fill="#22d3ee" filter="url(#glow)"/>
+  <circle class="pulse second" cx="810" cy="80" r="4" fill="#a78bfa" filter="url(#glow)"/>
+  <text x="600" y="73" text-anchor="middle" fill="#e2e8f0" font-size="22" font-weight="650" font-family="'Segoe UI', Inter, Arial, sans-serif">Learning deeply. Building consistently.</text>
+  <text x="600" y="105" text-anchor="middle" fill="#7dd3fc" font-size="17" font-family="'Segoe UI', Inter, Arial, sans-serif" letter-spacing="1">Improving one project at a time.</text>
+</svg>
